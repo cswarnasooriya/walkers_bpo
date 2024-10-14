@@ -124,7 +124,7 @@ const Navbar = ({ handleOrderPopup }) => {
             </div>
             <div className="flex items-center gap-4">
               <button
-                className="bg-gradient-to-r from-primary to-secondary hover:bg-bg-gradient-to-r hover:from-secondary hover:bg-primary transition-all duration-400 text-black font-bold px-4 py-4 rounded-full border-2 border-red-600"
+                className="hover:bg-bg-gradient-to-r bg-cyan-400 hover:from-secondary hover:bg-primary transition-all duration-400 text-black font-bold px-4 py-4 rounded-full border-2 border-black text-sm"
                 onClick={() => {
                   handleOrderPopup();
                 }}
