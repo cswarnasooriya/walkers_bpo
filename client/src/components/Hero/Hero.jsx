@@ -5,10 +5,10 @@ const Hero = () => {
 
   return (
     <div className=" bg-black/50 h-full pt-[60px] md:pt-[140px]">
-      <div className="h-full flex justify-center items-center p-4 bg-primary/10">
+      <div className="h-full flex justify-center text-center items-center p-4 bg-primary/10">
         <div className="container grid grid-cols-1 gap-4">
           <div className="text-white">
-            <p data-aos="fade-up" className="md:text-lg text-xl pb-4 font-serif font-semibold">
+            <p data-aos="fade-up" className="md:text-[42px] text-[18px] pb-4 font-serif font-semibold ">
               Welcome to BPO of Walkers (PVT) Ltd
             </p>
             <p
@@ -78,7 +78,7 @@ const Hero = () => {
                 </div>
               </div>
             </div> */}
-            <button className="bg-gradient-to-r from-primary to-secondary text-black font-bold hover:scale-105 hover:text-red-200 px-8 py-4 rounded-full duration-200 absolute -bottom-8 left-1/2 -translate-x-1/2 border-2 border-red-500 ">
+            <button className="bg-gradient-to-r bg-cyan-400 to-secondary text-black font-bold hover:scale-105 hover:bg-primary px-8 py-4 rounded-full duration-200 absolute -bottom-8 left-1/2 -translate-x-1/2 border-2 border-black  ">
               Hire Us Now
             </button>
           </div>
