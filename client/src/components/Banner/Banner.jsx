@@ -23,7 +23,7 @@ const Banner = () => {
               <div className="flex flex-col justify-center gap-10 sm:pt-0 lg:px-16">
                 <h1
                   data-aos="fade-up"
-                  className="text-3xl sm:text-4xl font-semibold font-serif"
+                  className="text-3xl sm:text-4xl font-semibold font-serif capitalize"
                 >
                   We are the pioneers in manufacturing tea rollers in the world
                 </h1>

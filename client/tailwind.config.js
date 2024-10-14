@@ -7,7 +7,8 @@ export default {
       colors: {
         // primary: "#00c3c7",
         primary: "#0287a8",
-        secondary: "#00c3c7",
+        secondary: "#24388a",
+        
         dark: "#ffcf22",
       },
       container: {

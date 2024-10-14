@@ -65,11 +65,11 @@ const Testimonial = () => {
       <div data-aos="fade-up" data-aos-duration="300" className="py-2">
         <div className="container">
           {/* Header section */}
-          <div className="text-center mb-20 max-w-[1200px] mx-auto">
-            <p className="text-xl bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
-              Our Values
+          <div className="text-left mb-20 max-w-[1200px] mx-auto">
+            <p className="my-8 border-l-8 border-primary/80 py-2 pl-2 text-3xl font-bold font-serif md:text-4xl">
+              <b>Our Values</b>
             </p>
-            <h1 className="text-3xl md:text-5xl font-serif font-bold pt-4">Testimonial</h1>
+            <h1 className="text-center text-3xl md:text-5xl font-serif font-bold pt-4">Testimonial</h1>
             <p className="text-lg text-center font-serif pt-8 text-gray-600">
               {" "}
               Walkers Sons & Company Engineers (Pvt) Ltd is a subsidiary of Walkers Group, a major provider of technology, engineering, construction and manufacturing services conglomerate with global operations.

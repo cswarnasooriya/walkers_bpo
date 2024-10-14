@@ -12,7 +12,7 @@ const BlogsData = [
     description:
       "In today’s fast-paced business environment, managing finances efficiently is crucial for success. Our Finance and Accounting BPO services provide businesses with the expertise and technology to streamline operations, enhance accuracy, and ensure compliance. Whether you're a small start-up or a large corporation, we tailor our solutions to meet your specific needs.",
     author: "Walkers",
-    date: "April 22, 2001",
+    date: "April 22, 2024",
   },
   {
     id: 1,
@@ -31,7 +31,7 @@ const BlogsData = [
     description:
       "We are committed to decreasing our carbon footprint and limiting the environmental impact of our building activities. We employ ecologically friendly building materials, recycle construction debris, and use less water and energy wherever possible. We also urge our stats to follow such eco-friendly methods whenever possible.",
     author: "Walkers",
-    date: "May 22, 2005",
+    date: "May 22, 2024",
   },
   {
     id: 1,
@@ -40,19 +40,19 @@ const BlogsData = [
     description:
       "We are committed to decreasing our carbon footprint and limiting the environmental impact of our building activities. We employ ecologically friendly building materials, recycle construction debris, and use less water and energy wherever possible. We also urge our stats to follow such eco-friendly methods whenever possible.",
     author: "Walkers",
-    date: "May 22, 2005",
+    date: "May 22, 2024",
   },
 ];
 
 const BlogsComp = () => {
   return (
     <>
-      <div className="dark:bg-gray-900 dark:text-white py-10 md:pt-[220px] pt-[150px]">
+      <div className="dark:bg-gray-900 dark:text-white py-10 md:pt-[420px] pt-[150px]">
         <section data-aos="" className="container ">
           <h1 className=" my-8 border-l-8 border-primary/80 py-2 pl-2 text-3xl md:text-4xl font-bold font-serif">
             Our Best Services
           </h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8">
             {BlogsData.map((item) => (
               <BlogCard key={item.id} {...item} />
             ))}
