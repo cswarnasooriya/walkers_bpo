@@ -1,28 +1,29 @@
-import React from "react";
+
 
 const Hero = () => {
-  const [priceValue, setPriceValue] = React.useState(30);
+  
 
   return (
     <div className=" bg-black/50 h-full pt-[60px] md:pt-[140px]">
       <div className="h-full flex justify-center text-center items-center p-4 bg-primary/10">
         <div className="container grid grid-cols-1 gap-4">
           <div className="text-white">
-            <p data-aos="fade-up" className="md:text-[42px] text-[18px] pb-4 font-serif font-semibold ">
+          
+            <p data-aos="" className="md:text-[26px] sm:text-[22px] text-[16px] pb-4 font-serif font-semibold ">
               Welcome to BPO of Walkers (PVT) Ltd
             </p>
             <p
-              data-aos="fade-up"
+              data-aos=""
               data-aos-delay="300"
-              className="font-bold pb-8 pt-8 text-7xl items-center justify-center text-center font-serif"
+              className="font-semibold pb-8 pt-8 md:pt-4 text-2xl md:text-7xl sm:text-4xl items-center justify-center text-center font-mono "
             >
               Transforming Challenges into Opportunities
             </p>
 
             <p
-              data-aos="fade-down"
+              data-aos=""
               data-aos-delay="400"
-              className="font-bold pb-2 pt-2 text-3xl items-center justify-center text-center font-serif"
+              className="font-bold pb-2 pt-2 md:text-3xl text-2xl sm:text-xl items-center justify-center text-center font-serif"
             >
               With Expert BPO
             </p>
