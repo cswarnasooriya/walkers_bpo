@@ -1,7 +1,7 @@
 import BlogsComp from "../components/Blogs/BlogsComp";
-// import NatureVid1 from "../assets/video/w1.mp4";
-// import NatureVid2 from "../assets/video/w13.mp4";
-// import NatureVid3 from "../assets/video/w1.mp4";
+import NatureVid1 from "../assets/video/bpo.mp4";
+import NatureVid2 from "../assets/video/bpo.mp4";
+import NatureVid3 from "../assets/video/bpo.mp4";
 
 const About = () => {
   return (
