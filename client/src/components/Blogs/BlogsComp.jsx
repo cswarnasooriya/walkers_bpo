@@ -1,6 +1,10 @@
 
 import { Link } from "react-router-dom";
-import Img1 from "../../assets/places/w112.jpg";
+import Img1 from "../../assets/places/Finance.jpg";
+import Img2 from "../../assets/places/IT Support & Data Entry.jpg";
+import Img3 from "../../assets/places/Digital Solutions.jpg";
+import Img4 from "../../assets/places/Project Management.jpg";
+import Img5 from "../../assets/places/Engineering Design.jpg";
 
 
 
@@ -54,7 +58,7 @@ Enter date one section finance */}
         <div className="p-4 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950 dark:text-white rounded-2xl">
               <div className="overflow-hidden">
                 <img
-                  src={Img1}
+                  src={Img2}
                   alt="No image"
                   className="mx-auto h-[400px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-lg"
                 />
@@ -80,7 +84,7 @@ Enter date one section finance */}
         <div className="p-4 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950 dark:text-white rounded-2xl">
               <div className="overflow-hidden">
                 <img
-                  src={Img1}
+                  src={Img3}
                   alt="No image"
                   className="mx-auto h-[400px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-lg"
                 />
@@ -102,7 +106,7 @@ Enter date one section finance */}
         <div className="p-4 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950 dark:text-white rounded-2xl">
               <div className="overflow-hidden">
                 <img
-                  src={Img1}
+                  src={Img4}
                   alt="No image"
                   className="mx-auto h-[400px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-lg"
                 />
@@ -124,7 +128,7 @@ Enter date one section finance */}
         <div className="p-4 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950 dark:text-white rounded-2xl">
               <div className="overflow-hidden">
                 <img
-                  src={Img1}
+                  src={Img5}
                   alt="No image"
                   className="mx-auto h-[400px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-lg"
                 />
