@@ -1,12 +1,12 @@
 import React from 'react'
-import img1 from "../../src/assets/places/w1.jpg"
-const Support = () => {
+import img1 from "../../src/assets/places/w2.jpg"
+const Digital = () => {
   return (
     <>
     <div className="dark:bg-gray-900 dark:text-white bg-gray-50 py-10 pt-[100px] md:pt-[160px]">
       <section data-aos="fade-up" className="container ">
         <h1 className=" my-8 border-l-8 border-primary/80 py-2 pl-2 text-3xl font-bold font-serif md:text-4xl">
-        IT Support & Data Entry 
+        Digital Solutions 
         </h1>
         <p className=" my-8  md:text-[20px] text-xl">
         In the current world where everything is moving so fast especially with the introduction of technology it is important for a business to have good IT support and proper handling of data. The Business Process Outsourcing services such as IT Support and Data Entry are designed to make your business more efficient and effective and enable you to accomplish your organizational objectives. 
@@ -83,7 +83,7 @@ const Support = () => {
   )
 }
 
-export default Support;
+export default Digital;
 
 
   

@@ -73,7 +73,7 @@ Enter date one section finance */}
               </div>
 
               <div>
-                <Link to={"/support"}>
+                <Link to={"/digital"}>
                   <button>Read More!</button>
                 </Link>
               </div>
@@ -91,7 +91,7 @@ Enter date one section finance */}
                 <h1 className="line-clamp-1 font-bold text-xl">Project Management</h1>
               </div>
               <div>
-                <Link to={"/support"}>
+                <Link to={"/project"}>
                   <button>Read More!</button>
                 </Link>
               </div>
@@ -110,7 +110,7 @@ Enter date one section finance */}
                 <h1 className="line-clamp-1 font-bold text-xl">Engineering Design, Drafting, and Estimating in Australia</h1>
               </div>
               <div>
-                <Link to={"/support"}>
+                <Link to={"/engineering"}>
                   <button>Read More!</button>
                 </Link>
               </div>
