@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const BlogCard = ({ image, date, title, description, author }) => {
+const BlogCard_2 = ({ image, date, title, description, author }) => {
   return (
     <>
       <Link
@@ -29,7 +29,7 @@ const BlogCard = ({ image, date, title, description, author }) => {
           </div>
           <div className="space-y-2 py-3">
             <h1 className="line-clamp-1 font-bold text-xl">{title}</h1>
-            <p className="line-clamp-10 text-justify">{description}</p>
+           
           </div>
         </div>
       </Link>
@@ -37,4 +37,4 @@ const BlogCard = ({ image, date, title, description, author }) => {
   );
 };
 
-export default BlogCard;
+export default BlogCard_2;

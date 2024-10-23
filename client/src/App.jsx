@@ -7,9 +7,10 @@ import Blogs from "./pages/Blogs";
 import NoPage from "./pages/NoPage";
 import PlacesRoute from "./pages/PlacesRoute";
 import About from "./pages/About";
-import BlogsDetails from "./pages/BlogsDetails";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Finance from "./pages/Finance";
+import Support from "./pages/Support";
 
 const App = () => {
   React.useEffect(() => {
@@ -28,7 +29,11 @@ const App = () => {
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="blogs" element={<Blogs />} />
-            <Route path="blogs/:id" element={<BlogsDetails />} />
+            <Route path="finance" element={<Finance />} />
+            <Route path="support" element={<Support />} />
+            <Route path="finance" element={<Finance />} />
+            <Route path="finance" element={<Finance />} />
+            <Route path="finance" element={<Finance />} />
             <Route path="best-places" element={<PlacesRoute />} />
             <Route path="about" element={<About />} />
             <Route path="*" element={<NoPage />} />

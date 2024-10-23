@@ -1,7 +1,8 @@
 import { useLocation } from "react-router-dom";
-import BlogsComp from "../components/Blogs/BlogsComp";
+import ServiceComp_1 from "../components/Blogs/ServiceCom_1";
 
-const BlogsDetails = (props) => {
+
+const BlogsDetails_1 = (props) => {
   const location = useLocation();
   console.log(props, " props");
   console.log(location, " useLocation Hook");
@@ -25,6 +26,10 @@ const BlogsDetails = (props) => {
         <p>{description}</p>
       </div>
 
+      <ServiceComp_1 />
+ 
+
+
 
 
 
@@ -34,9 +39,9 @@ const BlogsDetails = (props) => {
 
 
       {/* All Blogs Section */}
-      <BlogsComp />
+      {/* <BlogsComp /> */}
     </div>
   );
 };
 
-export default BlogsDetails;
+export default BlogsDetails_1;
