@@ -19,10 +19,6 @@ export const NavbarLinks = [
     link: "/blogs",
   },
   {
-    name: "Services",
-    link: "/services",
-  },
-  {
     name: "Projects",
     link: "/projects",
   },
@@ -80,19 +76,15 @@ const Navbar = ({ handleOrderPopup }) => {
                     About
                   </NavLink>
                 </li>
-                <li className="py-6 text-[20px] font-semibold">
-                  <NavLink to="/services" activeClassName="active">
-                    Services
-                  </NavLink>
-                </li>
+                
                 <li className="py-6 text-[20px] font-semibold">
                   <NavLink to="/best-places" activeClassName="active">
-                    Blog
+                  Projects
                   </NavLink>
                 </li>
                 <li className="py-6 text-[20px] font-semibold">
-                  <NavLink to="/projects" activeClassName="active">
-                   Projects
+                  <NavLink to="/contracts" activeClassName="active">
+                   Contracts
                   </NavLink>
                 </li>
                 <li className="group relative cursor-pointer">
