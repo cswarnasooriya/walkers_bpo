@@ -19,11 +19,13 @@ const BlogsComp = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8">
 
+
+
 {/* 
 Enter date one section finance */}
 
 
-          <div className="p-4 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950 dark:text-white rounded-2xl">
+          <div className="p-6 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950 dark:text-white rounded-2xl">
               <div className="overflow-hidden">
                 <img
                   src={Img1}
@@ -34,7 +36,7 @@ Enter date one section finance */}
               <div className="space-y-2 py-3">
                 <h1 className="line-clamp-1 font-bold text-xl">Finance & Accounting</h1>
 
-                <p className="pt- line-clamp-2 text-gray-600 font-mono text-justify">
+                <p className="pt- line-clamp-4 text-gray-600 font-serif text-justify">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi assumenda alias facere maxime optio! Hic fugiat maiores aliquam natus molestias eaque iure? Pariatur, sapiente dicta vel autem consequuntur consectetur eum!
                 </p>
               </div>
