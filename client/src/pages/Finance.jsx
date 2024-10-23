@@ -1,5 +1,15 @@
 import React from 'react'
-import img1 from "../../src/assets/places/w1.jpg"
+import img1 from "../../src/assets/places/bookin.jpg"
+import img2 from "../../src/assets/places/pay.jpg"
+import img3 from "../../src/assets/places/Order.jpg"
+import img4 from "../../src/assets/places/Bank.jpg"
+import img5 from "../../src/assets/places/Ledger.jpg"
+import img6 from "../../src/assets/places/Fixed Asset_1.jpg"
+import img7 from "../../src/assets/places/Reporting.jpg"
+import img8 from "../../src/assets/places/Financial Analytics (2).jpg"
+import img9 from "../../src/assets/places/Tax Services.jpg"
+import img10 from "../../src/assets/places/HR.jpg"
+
 const Finance = () => {
   return (
     <>
@@ -39,7 +49,7 @@ const Finance = () => {
           >
             <div className="overflow-hidden">
               <img
-                src={img1}
+                src={img2}
                 alt="No image"
                 className="mx-auto h-[380px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-[22px]"
               />
@@ -60,7 +70,7 @@ const Finance = () => {
           >
             <div className="overflow-hidden">
               <img
-                src={img1}
+                src={img3}
                 alt="No image"
                 className="mx-auto h-[380px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-[22px]"
               />
@@ -81,7 +91,7 @@ const Finance = () => {
           >
             <div className="overflow-hidden">
               <img
-                src={img1}
+                src={img4}
                 alt="No image"
                 className="mx-auto h-[380px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-[22px]"
               />
@@ -102,7 +112,7 @@ const Finance = () => {
           >
             <div className="overflow-hidden">
               <img
-                src={img1}
+                src={img5}
                 alt="No image"
                 className="mx-auto h-[380px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-[22px]"
               />
@@ -123,7 +133,7 @@ const Finance = () => {
           >
             <div className="overflow-hidden">
               <img
-                src={img1}
+                src={img6}
                 alt="No image"
                 className="mx-auto h-[380px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-[22px]"
               />
@@ -144,7 +154,7 @@ const Finance = () => {
           >
             <div className="overflow-hidden">
               <img
-                src={img1}
+                src={img7}
                 alt="No image"
                 className="mx-auto h-[380px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-[22px]"
               />
@@ -165,7 +175,7 @@ const Finance = () => {
           >
             <div className="overflow-hidden">
               <img
-                src={img1}
+                src={img8}
                 alt="No image"
                 className="mx-auto h-[380px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-[22px]"
               />
@@ -189,7 +199,7 @@ const Finance = () => {
           >
             <div className="overflow-hidden">
               <img
-                src={img1}
+                src={img9}
                 alt="No image"
                 className="mx-auto h-[380px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-[22px]"
               />
@@ -210,7 +220,7 @@ const Finance = () => {
           >
             <div className="overflow-hidden">
               <img
-                src={img1}
+                src={img10}
                 alt="No image"
                 className="mx-auto h-[380px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-[22px]"
               />
