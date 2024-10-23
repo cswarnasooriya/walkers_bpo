@@ -1,5 +1,7 @@
 import React from 'react'
-import img1 from "../../src/assets/places/w1.jpg"
+import img1 from "../../src/assets/places/Business.jpg"
+import img2 from "../../src/assets/places/Help Desk.jpg"
+import img3 from "../../src/assets/places/Data.jpg"
 const Support = () => {
   return (
     <>
@@ -39,7 +41,7 @@ const Support = () => {
           >
             <div className="overflow-hidden">
               <img
-                src={img1}
+                src={img2}
                 alt="No image"
                 className="mx-auto h-[380px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-[22px]"
               />
@@ -60,7 +62,7 @@ const Support = () => {
           >
             <div className="overflow-hidden">
               <img
-                src={img1}
+                src={img3}
                 alt="No image"
                 className="mx-auto h-[380px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-[22px]"
               />

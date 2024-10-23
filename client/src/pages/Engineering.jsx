@@ -1,5 +1,14 @@
 import React from 'react'
-import img1 from "../../src/assets/places/w1.jpg"
+import img1 from "../../src/assets/places/E1.jpg"
+import img2 from "../../src/assets/places/E2.jpg"
+import img3 from "../../src/assets/places/E3.jpg"
+import img4 from "../../src/assets/places/E4.jpg"
+import img5 from "../../src/assets/places/E5.jpg"
+import img6 from "../../src/assets/places/E6.jpg"
+import img7 from "../../src/assets/places/E7.jpg"
+import img8 from "../../src/assets/places/E8.jpg"
+import img9 from "../../src/assets/places/E9.jpeg"
+import img10 from "../../src/assets/places/E10.jpg"
 const Engineering = () => {
   return (
     <>
@@ -49,7 +58,7 @@ const Engineering = () => {
           >
             <div className="overflow-hidden">
               <img
-                src={img1}
+                src={img2}
                 alt="No image"
                 className="mx-auto h-[380px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-[22px]"
               />
@@ -70,7 +79,7 @@ const Engineering = () => {
           >
             <div className="overflow-hidden">
               <img
-                src={img1}
+                src={img3}
                 alt="No image"
                 className="mx-auto h-[380px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-[22px]"
               />
@@ -92,7 +101,7 @@ const Engineering = () => {
           >
             <div className="overflow-hidden">
               <img
-                src={img1}
+                src={img4}
                 alt="No image"
                 className="mx-auto h-[380px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-[22px]"
               />
@@ -112,7 +121,7 @@ const Engineering = () => {
           >
             <div className="overflow-hidden">
               <img
-                src={img1}
+                src={img5}
                 alt="No image"
                 className="mx-auto h-[380px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-[22px]"
               />
@@ -132,7 +141,7 @@ const Engineering = () => {
           >
             <div className="overflow-hidden">
               <img
-                src={img1}
+                src={img6}
                 alt="No image"
                 className="mx-auto h-[380px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-[22px]"
               />
@@ -152,7 +161,7 @@ const Engineering = () => {
           >
             <div className="overflow-hidden">
               <img
-                src={img1}
+                src={img7}
                 alt="No image"
                 className="mx-auto h-[380px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-[22px]"
               />
@@ -172,7 +181,7 @@ const Engineering = () => {
           >
             <div className="overflow-hidden">
               <img
-                src={img1}
+                src={img8}
                 alt="No image"
                 className="mx-auto h-[380px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-[22px]"
               />
@@ -192,7 +201,7 @@ const Engineering = () => {
           >
             <div className="overflow-hidden">
               <img
-                src={img1}
+                src={img9}
                 alt="No image"
                 className="mx-auto h-[380px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-[22px]"
               />
@@ -212,7 +221,7 @@ const Engineering = () => {
           >
             <div className="overflow-hidden">
               <img
-                src={img1}
+                src={img10}
                 alt="No image"
                 className="mx-auto h-[380px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-[22px]"
               />
