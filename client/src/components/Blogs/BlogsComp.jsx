@@ -91,11 +91,8 @@ Enter date one section finance */}
               </div>
 
               <div>
-                <Link to={"/support"}>
-                <button className="bg-blue-300 mt-4 px-5 py-3 rounded-md text-black font-semibold hover:bg-blue-700 hover:text-white sm:ml-10 md:ml-32 lg:ml-40 ml-40 xl:ml-52 2xl:ml-64 items-center">
-  Read More!
-</button>
-
+                <Link to={"/digital"}>
+                  <button>Read More!</button>
                 </Link>
               </div>
         </div>
@@ -115,11 +112,8 @@ Enter date one section finance */}
                 </p>
               </div>
               <div>
-                <Link to={"/support"}>
-                <button className="bg-blue-300 mt-4 px-5 py-3 rounded-md text-black font-semibold hover:bg-blue-700 hover:text-white sm:ml-10 md:ml-32 lg:ml-40 ml-40 xl:ml-52 2xl:ml-64 items-center">
-  Read More!
-</button>
-
+                <Link to={"/project"}>
+                  <button>Read More!</button>
                 </Link>
               </div>
         </div>
@@ -141,11 +135,8 @@ Enter date one section finance */}
                 </p>
               </div>
               <div>
-                <Link to={"/support"}>
-                <button className="bg-blue-300 mt-4 px-5 py-3 rounded-md text-black font-semibold hover:bg-blue-700 hover:text-white sm:ml-10 md:ml-32 lg:ml-40 ml-40 xl:ml-52 2xl:ml-64 items-center">
-  Read More!
-</button>
-
+                <Link to={"/engineering"}>
+                  <button>Read More!</button>
                 </Link>
               </div>
         </div>
