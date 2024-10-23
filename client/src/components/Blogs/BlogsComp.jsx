@@ -91,7 +91,7 @@ Enter date one section finance */}
               </div>
 
               <div>
-                <Link to={"/support"}>
+                <Link to={"/digital"}>
                   <button>Read More!</button>
                 </Link>
               </div>
@@ -112,7 +112,7 @@ Enter date one section finance */}
                 </p>
               </div>
               <div>
-                <Link to={"/support"}>
+                <Link to={"/project"}>
                   <button>Read More!</button>
                 </Link>
               </div>
@@ -135,7 +135,7 @@ Enter date one section finance */}
                 </p>
               </div>
               <div>
-                <Link to={"/support"}>
+                <Link to={"/engineering"}>
                   <button>Read More!</button>
                 </Link>
               </div>
