@@ -25,34 +25,34 @@ const Banner = () => {
                   data-aos="fade-up"
                   className="text-3xl sm:text-4xl font-semibold font-serif capitalize"
                 >
-                  We are the pioneers in manufacturing tea rollers in the world
+                 Why Choose Walkers BPO?
                 </h1>
                 <p
                   data-aos="fade-up"
                   className="text-md text-gray-700 text-justify tracking-wide leading-7"
                 >
-                  Walkers (Pvt) Ltd is a subsidiary of Walkers Group, a major provider of technology, engineering, construction and manufacturing services conglomerate with global operations.
+                 Enhance your engineering processes with Walkers BPO specialized BPO support services in design, drafting, and estimating. Contact us today to discuss how we can streamline your operations, improve efficiency, and drive success in your projects. Let’s build the future together!
                   <br />
                 </p>
                 <div data-aos="zoom-in" className="grid grid-cols-2 gap-6">
                   <div className="space-y-10">
                     <div className="flex items-center gap-6">
                       <MdFlight className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-violet-100 dark:bg-violet-400" />
-                      <p>Flight</p>
+                      <p>Digital</p>
                     </div>
                     <div className="flex items-center gap-6">
                       <MdOutlineLocalHotel className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-orange-100 dark:bg-orange-400" />
-                      <p>Hotel</p>
+                      <p>Engineering</p>
                     </div>
                   </div>
                   <div className="space-y-10">
                     <div className="flex items-center gap-6">
                       <IoIosWifi className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-green-100 dark:bg-green-400" />
-                      <p>Enginners</p>
+                      <p>Finance</p>
                     </div>
                     <div className="flex items-center gap-6">
                       <IoFastFoodSharp className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-yellow-100 dark:bg-yellow-400" />
-                      <p>Foods</p>
+                      <p>Solution</p>
                     </div>
                   </div>
                 </div>
