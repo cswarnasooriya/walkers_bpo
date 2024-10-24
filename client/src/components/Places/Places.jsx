@@ -64,7 +64,7 @@ const PlacesData = [
 const Places = ({ handleOrderPopup }) => {
   return (
     <>
-      <div className="dark:bg-gray-900 dark:text-white bg-gray-50 py-10">
+      <div className="dark:bg-gray-900 dark:text-white bg-gray-50 py-10"id="Bproject">
         <section data-aos="fade-up" className="container ">
           <h1 className=" my-8 border-l-8 border-primary/80 py-2 pl-2 text-3xl font-bold font-serif md:text-4xl">
             Our Best Projects
