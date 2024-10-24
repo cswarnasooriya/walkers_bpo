@@ -1,5 +1,3 @@
-
-
 const Hero = () => {
   
 
@@ -9,19 +7,19 @@ const Hero = () => {
         <div className="container grid grid-cols-1 gap-4">
           <div className="text-white">
           
-            <p data-aos="" className="md:text-[26px] sm:text-[22px] text-[16px] pb-4 font-serif font-semibold ">
+            <p data-aos="fade-up" className="md:text-[28px] sm:text-[22px] text-[16px] pb-4 font-serif font-semibold ">
               Welcome to BPO of Walkers (PVT) Ltd
             </p>
             <p
-              data-aos=""
+              data-aos="fade-up"
               data-aos-delay="300"
-              className="font-semibold pb-8 pt-8 md:pt-4 text-2xl md:text-7xl sm:text-4xl items-center justify-center text-center font-mono "
+              className="pb-8 pt-2 md:pt-4 text-3xl md:text-7xl sm:text-4xl items-center justify-center text-center font-mono font-bold "
             >
               Transforming Challenges into Opportunities
             </p>
 
             <p
-              data-aos=""
+              data-aos="fade-up"
               data-aos-delay="400"
               className="font-bold pb-2 pt-2 md:text-3xl text-2xl sm:text-xl items-center justify-center text-center font-serif"
             >
