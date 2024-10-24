@@ -23,24 +23,28 @@ const BlogsComp = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-8">
 
+
+
 {/* 
 Enter date one section finance */}
 
 
-          <div className="p-4 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950 dark:text-white rounded-2xl">
+          <div className="p-6 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950 dark:text-white rounded-2xl">
               <div className="overflow-hidden">
                 <img
                   src={Img1}
                   alt="No image"
-                  className="mx-auto h-[400px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-lg"
+                  className="mx-auto h-[450px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-xl"
                 />
               </div>
               <div className="space-y-2 py-3">
-                <h1 className="line-clamp-1 font-bold text-xl">Finance & Accounting</h1>
 
-                <p className="pt- line-clamp-2 text-gray-600 font-mono text-justify">
+                <h1 className="line-clamp-1 font-bold text-2xl pb-4">Finance & Accounting</h1>
+
+                <p className="pt-2 text-[17px] line-clamp-2 text-gray-600 font-serif text-justify leading-7">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi assumenda alias facere maxime optio! Hic fugiat maiores aliquam natus molestias eaque iure? Pariatur, sapiente dicta vel autem consequuntur consectetur eum!
                 </p>
+
               </div>
 
               <div>
@@ -53,18 +57,18 @@ Enter date one section finance */}
               </div>
         </div>
 
-        <div className="p-4 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950 dark:text-white rounded-2xl">
+        <div className="p-6 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950 dark:text-white rounded-2xl">
               <div className="overflow-hidden">
                 <img
                   src={Img2}
                   alt="No image"
-                  className="mx-auto h-[400px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-lg"
+                  className="mx-auto h-[450px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-xl"
                 />
               </div>
               <div className="space-y-2 py-3">
-                <h1 className="line-clamp-1 font-bold text-xl">IT Support & Data Entry </h1>      
+                <h1 className="line-clamp-1 font-bold text-2xl pb-4">IT Support & Data Entry </h1>      
 
-                <p className="pt- line-clamp-2 text-gray-600 font-mono text-justify">
+                <p className="pt-2 text-[17px] line-clamp-2 text-gray-600 font-serif text-justify leading-7">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi assumenda alias facere maxime optio! Hic fugiat maiores aliquam natus molestias eaque iure? Pariatur, sapiente dicta vel autem consequuntur consectetur eum!
                 </p>        
               </div>
@@ -79,68 +83,88 @@ Enter date one section finance */}
               </div>
         </div>
 
-        <div className="p-4 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950 dark:text-white rounded-2xl">
+        <div className="p-6 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950 dark:text-white rounded-2xl">
               <div className="overflow-hidden">
                 <img
                   src={Img3}
                   alt="No image"
-                  className="mx-auto h-[400px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-lg"
+                  className="mx-auto h-[450px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-xl"
                 />
               </div>
               <div className="space-y-2 py-3">
-                <h1 className="line-clamp-1 font-bold text-xl">Digital Solutions</h1>            
-                <p className="pt- line-clamp-2 text-gray-600 font-mono text-justify">
+                <h1 className="line-clamp-1 font-bold text-2xl pb-4">Digital Solutions</h1>            
+                <p className="pt-2 text-[17px] line-clamp-2 text-gray-600 font-serif text-justify leading-7">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi assumenda alias facere maxime optio! Hic fugiat maiores aliquam natus molestias eaque iure? Pariatur, sapiente dicta vel autem consequuntur consectetur eum!
                 </p> 
               </div>
 
               <div>
                 <Link to={"/digital"}>
-                  <button>Read More!</button>
+                  <button className="bg-blue-300 mt-4 px-5 py-3 rounded-md text-black font-semibold hover:bg-blue-700 hover:text-white sm:ml-10 md:ml-32 lg:ml-40 ml-40 xl:ml-52 2xl:ml-64 items-center" >Read More!</button>
                 </Link>
               </div>
         </div>
 
-        <div className="p-4 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950 dark:text-white rounded-2xl">
+        <div className="p-6 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950 dark:text-white rounded-2xl">
               <div className="overflow-hidden">
                 <img
                   src={Img4}
                   alt="No image"
-                  className="mx-auto h-[400px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-lg"
+                  className="mx-auto h-[450px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-xl"
                 />
               </div>
               <div className="space-y-2 py-3">
-                <h1 className="line-clamp-1 font-bold text-xl">Project Management</h1>
-                <p className="pt- line-clamp-2 text-gray-600 font-mono text-justify">
+                <h1 className="line-clamp-1 font-bold text-2xl pb-4">Project Management</h1>
+                <p className="pt-2 text-[17px] line-clamp-2 text-gray-600 font-serif text-justify leading-7">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi assumenda alias facere maxime optio! Hic fugiat maiores aliquam natus molestias eaque iure? Pariatur, sapiente dicta vel autem consequuntur consectetur eum!
                 </p>
               </div>
               <div>
                 <Link to={"/project"}>
-                  <button>Read More!</button>
+                  <button className="bg-blue-300 mt-4 px-5 py-3 rounded-md text-black font-semibold hover:bg-blue-700 hover:text-white sm:ml-10 md:ml-32 lg:ml-40 ml-40 xl:ml-52 2xl:ml-64 items-center">Read More!</button>
                 </Link>
               </div>
         </div>
 
 
-        <div className="p-4 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950 dark:text-white rounded-2xl">
+        <div className="p-6 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950 dark:text-white rounded-2xl">
               <div className="overflow-hidden">
                 <img
                   src={Img5}
                   alt="No image"
-                  className="mx-auto h-[400px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-lg"
+                  className="mx-auto h-[450px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-xl"
                 />
               </div>
               <div className="space-y-2 py-3">
-                <h1 className="line-clamp-1 font-bold text-xl">Engineering Design, Drafting, and Estimating in Australia</h1>
+                <h1 className="lline-clamp-1 font-bold text-2xl pb-4">Engineering Design and Drafting</h1>
 
-                <p className="pt- line-clamp-2 text-gray-600 font-mono text-justify">
+                <p className="pt-2 text-[17px] line-clamp-2 text-gray-600 font-serif text-justify leading-7">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi assumenda alias facere maxime optio! Hic fugiat maiores aliquam natus molestias eaque iure? Pariatur, sapiente dicta vel autem consequuntur consectetur eum!
                 </p>
               </div>
               <div>
                 <Link to={"/engineering"}>
-                  <button>Read More!</button>
+                  <button className="bg-blue-300 mt-4 px-5 py-3 rounded-md text-black font-semibold hover:bg-blue-700 hover:text-white sm:ml-10 md:ml-32 lg:ml-40 ml-40 xl:ml-52 2xl:ml-64 items-center">Read More!</button>
+                </Link>
+              </div>
+        </div>
+        <div className="p-6 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950 dark:text-white rounded-2xl">
+              <div className="overflow-hidden">
+                <img
+                  src={Img4}
+                  alt="No image"
+                  className="mx-auto h-[450px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110 rounded-xl"
+                />
+              </div>
+              <div className="space-y-2 py-3">
+                <h1 className="line-clamp-1 font-bold text-2xl pb-4">Estimating Services in Austrailia</h1>
+                <p className="pt-2 text-[17px] line-clamp-2 text-gray-600 font-serif text-justify leading-7">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi assumenda alias facere maxime optio! Hic fugiat maiores aliquam natus molestias eaque iure? Pariatur, sapiente dicta vel autem consequuntur consectetur eum!
+                </p>
+              </div>
+              <div>
+                <Link to={"/project"}>
+                  <button className="bg-blue-300 mt-4 px-5 py-3 rounded-md text-black font-semibold hover:bg-blue-700 hover:text-white sm:ml-10 md:ml-32 lg:ml-40 ml-40 xl:ml-52 2xl:ml-64 items-center">Read More!</button>
                 </Link>
               </div>
         </div>

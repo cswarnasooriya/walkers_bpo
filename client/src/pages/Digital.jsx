@@ -9,6 +9,7 @@ import img7 from "../../src/assets/places/D7.jpg"
 import img8 from "../../src/assets/places/D8.jpg"
 import img9 from "../../src/assets/places/D9.jpg"
 import img10 from "../../src/assets/places/D10.jpg"
+import Whychoose from './Whychoose'
 
 const Digital = () => {
   return (
@@ -170,6 +171,7 @@ const Digital = () => {
           
 
         </div>
+        <Whychoose/>
       </section>
     </div>
     </>

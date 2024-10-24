@@ -1,10 +1,10 @@
 import React from "react";
-import TravelImg from "../../assets/w13.jpg";
+import TravelImg from "../../src/assets/places/C1.jpg";
 import { MdFlight, MdOutlineLocalHotel } from "react-icons/md";
 import { IoIosWifi } from "react-icons/io";
 import { IoFastFoodSharp } from "react-icons/io5";
 
-const Banner = () => {
+const Whychoose = () => {
   return (
     <>
       <div className="min-h-[550px] bg-gray-200 pb-12 pt-8">
@@ -25,7 +25,7 @@ const Banner = () => {
                   data-aos="fade-up"
                   className="text-3xl sm:text-4xl font-semibold font-serif capitalize"
                 >
-                 Why Choose Walkers BPO?
+                 Get Start Touday
                 </h1>
                 <p
                   data-aos="fade-up"
@@ -65,4 +65,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default Whychoose;
