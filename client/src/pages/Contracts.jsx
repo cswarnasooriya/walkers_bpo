@@ -2,6 +2,7 @@ import img1 from "../../src/assets/places/C1.jpg"
 import img2 from "../../src/assets/places/C2.jpg"
 import img3 from "../../src/assets/places/C3.jpg"
 import img4 from "../../src/assets/places/C4.jpg"
+import Whychoose from './Whychoose'
 
 const Contracts = () => {
   return (
@@ -108,6 +109,7 @@ const Contracts = () => {
           </div>
 
         </div>
+        <Whychoose/>
       </section>
     </div>
     </>
