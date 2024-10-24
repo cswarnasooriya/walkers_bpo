@@ -2,6 +2,7 @@ import React from 'react'
 import img1 from "../../src/assets/places/Business.jpg"
 import img2 from "../../src/assets/places/Help Desk.jpg"
 import img3 from "../../src/assets/places/Data.jpg"
+import Whychoose from './Whychoose'
 const Support = () => {
   return (
     <>
@@ -79,6 +80,7 @@ const Support = () => {
           </div>
           
         </div>
+        <Whychoose/>
       </section>
     </div>
     </>

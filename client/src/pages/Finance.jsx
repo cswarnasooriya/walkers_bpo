@@ -9,6 +9,7 @@ import img7 from "../../src/assets/places/Reporting.jpg"
 import img8 from "../../src/assets/places/Financial Analytics (2).jpg"
 import img9 from "../../src/assets/places/Tax Services.jpg"
 import img10 from "../../src/assets/places/HR.jpg"
+import Whychoose from './Whychoose'
 
 const Finance = () => {
   return (
@@ -236,6 +237,7 @@ const Finance = () => {
             </div>
           </div>
         </div>
+        <Whychoose/>
       </section>
     </div>
     </>
