@@ -4,6 +4,7 @@ import img2 from "../../src/assets/places/P2.jpg"
 import img3 from "../../src/assets/places/P3.jpg"
 import img4 from "../../src/assets/places/P4.jpg"
 import img5 from "../../src/assets/places/P5.jpg"
+import Whychoose from './Whychoose'
 const Project = () => {
   return (
     <>
@@ -138,6 +139,7 @@ const Project = () => {
         <p>Get Started Today!<br/>
             Enhance your engineering processes with Walkers BPO specialized BPO support services in design, drafting, and estimating. Contact us today to discuss how we can streamline your operations, improve efficiency, and drive success in your projects. Let’s build the future together!
 </p>
+    <Whychoose/>
       </section>
     </div>
 

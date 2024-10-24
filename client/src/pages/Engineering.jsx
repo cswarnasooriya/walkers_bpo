@@ -9,6 +9,7 @@ import img7 from "../../src/assets/places/E7.jpg"
 import img8 from "../../src/assets/places/E8.jpg"
 import img9 from "../../src/assets/places/E9.jpeg"
 import img10 from "../../src/assets/places/E10.jpg"
+import Whychoose from './Whychoose'
 const Engineering = () => {
   return (
     <>
@@ -239,7 +240,7 @@ const Engineering = () => {
 
 
           <h2 className=" my-8 border-l-8 border-primary/80 py-2 pl-2 text-3xl font-bold font-serif md:text-4xl">
-        Why Choose Walkers BPO?
+        Why Choose
         </h2>
         <p className=" my-8  md:text-[16px] text-xl">
 •	Expertise: Our team comprises experienced professionals with specialized knowledge in engineering processes, ensuring high-quality results tailored to your needs.<br/>
@@ -251,9 +252,8 @@ const Engineering = () => {
         <br/>
         </p>
         </div>
-        <p>Get Started Today!<br/>
-            Enhance your engineering processes with Walkers BPO specialized BPO support services in design, drafting, and estimating. Contact us today to discuss how we can streamline your operations, improve efficiency, and drive success in your projects. Let’s build the future together!
-</p>
+        
+<Whychoose/>
       </section>
     </div>
     </>
