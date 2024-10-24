@@ -27,15 +27,15 @@ export const NavbarLinks = [
 const DropdownLinks = [
   {
     name: "Our Services",
-    link: "/#services",
+    link: "/blogs",
   },
   {
-    name: "Top Brands",
-    link: "/#mobile_brands",
+    name: "Best Project",
+    link: "#Bproject",
   },
   {
-    name: "Location",
-    link: "/#location",
+    name: "About Us",
+    link: "/about",
   },
 ];
 
