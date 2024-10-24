@@ -20,11 +20,11 @@ const FooterLinks = [
     link: "/about",
   },
   {
-    title: "Best Places",
+    title: "Best Project",
     link: "/best-places",
   },
   {
-    title: "Blogs",
+    title: "Services",
     link: "/blogs",
   },
 ];
