@@ -4,11 +4,8 @@ import img2 from "../../src/assets/places/D2.jpg"
 import img3 from "../../src/assets/places/D3.jpg"
 import img4 from "../../src/assets/places/D4.jpg"
 import img5 from "../../src/assets/places/D5.jpg"
-import img6 from "../../src/assets/places/D6.jpg"
-import img7 from "../../src/assets/places/D7.jpg"
 import img8 from "../../src/assets/places/D8.jpg"
 import img9 from "../../src/assets/places/D9.jpg"
-import img10 from "../../src/assets/places/D10.jpg"
 import Whychoose from './Whychoose'
 
 const Digital = () => {
@@ -19,7 +16,9 @@ const Digital = () => {
         <h1 className=" my-8 border-l-8 border-primary/80 py-2 pl-2 text-3xl font-bold font-serif md:text-4xl">
         Digital Solutions 
         </h1>
-        
+        <p className=" my-8  md:text-[20px] text-xl">
+        Expertly crafting websites with creative design, optimizing visibility through digital marketing and SEO, and delivering user-friendly UX/UI, all focused on enhancing your brand's success.
+        </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4 rounded-md">
         <div
             className="shadow-lg transition-all duration-500 hover:shadow-2xl dark:bg-slate-950 dark:text-white cursor-pointer rounded-[20px]"
