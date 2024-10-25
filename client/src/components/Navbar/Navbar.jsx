@@ -31,7 +31,7 @@ const DropdownLinks = [
   },
   {
     name: "Best Project",
-    link: "#Bproject",
+    link: "/best-places",
   },
   {
     name: "About Us",
